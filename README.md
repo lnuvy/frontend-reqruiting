@@ -1,5 +1,54 @@
-# Vue 3 + TypeScript + Vite
+# 프론트엔드 개발자 채용 과제
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+이 repository는 프론트엔드 개발자 채용를 위한 과제입니다. 요구 사항에 따라 2가지 과제를 완수해주세요. 
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+
+## 과제 1: InputText 클리어 버튼 추가
+
+### 요구 사항
+- **기능**:
+  - 우측에 보더 안쪽으로 **X 버튼**을 추가합니다.
+  - 사용자가 이 버튼을 클릭하면 입력된 내용이 삭제되어야 합니다.
+  - 입력 내용이 삭제된 후, **포커스가 다시 입력 필드로 돌아가야** 합니다.
+- **디자인**:
+  - InputText 컴포넌트의 디자인은 변경되지 않아야 합니다.
+  - 버튼의 디자인은 자유입니다.
+  
+
+
+
+
+## 과제 2: SignUpForm 유효성 검사 추가
+
+### 요구 사항
+
+
+- SignUpForm에 유효성 검사를 포함해야합니다. 모든 필드가 유효할 때만 제출되어져야합니다. 각 필드의 유효성 조건은 다음과 같습니다. 
+  - **User ID**:
+    - 알파벳과 숫자만 허용합니다.
+    - 반드시 작성되어야 합니다.
+  - **Name**:
+    - 다음 특수문자가 허용되지 않습니다.
+      - `\ / : * ? " < > |`
+    - 반드시 작성되어야 합니다.
+  - **Organization**:
+    - 다음 특수문자가 허용되지 않습니다.
+      - `\ / : * ? " < > |`
+    - 작성하지 않아도 됩니다.  
+
+
+### 추가 요구 사항
+
+- 유효성 검사에 실패하면, 에러 메시지나 경고를 표시해야 합니다.
+
+
+
+## 참고사항
+- 외부 라이브러리 사용은 불가합니다. 
+- 파일 추가, 수정은 자유입니다.
+- 본인의 github 계정으로 이 레포지토리를 fork하여 진행해주세요.
+
+## 과제 제출방법
+아래 담당자에게 작업한 repository 주소를 e-mail로 제출합니다. 
+
+담당자: 조재건, jaegeon.jo@murple.ai
