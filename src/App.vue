@@ -4,7 +4,7 @@ import SignUpForm from "./components/SignUpForm.vue";
 </script>
 
 <template>
-  <div class="flex flex-col justify-center h-screen w-screen items-center">
+  <div class="flex h-screen w-screen flex-col items-center justify-center">
     <BaseCard>
       <template #title>Sign Up</template>
       <template #content>

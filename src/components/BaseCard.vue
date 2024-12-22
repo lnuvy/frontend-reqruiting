@@ -1,5 +1,5 @@
 <template>
-  <div class="rounded-lg shadow-lg bg-white p-4 w-[480px]">
+  <div class="w-[480px] rounded-lg bg-white p-4 shadow-lg">
     <header class="text-2xl font-semibold">
       <slot name="title" />
     </header>
